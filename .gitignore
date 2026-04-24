@@ -1,0 +1,72 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# =========================
+# MemoryCaptures
+# =========================
+MemoryCaptures/
+
+# =========================
+# Asset meta data should stay
+# =========================
+!/[Aa]ssets/**/*.meta
+
+# =========================
+# Visual Studio / Rider / VSCode
+# =========================
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================
+# OS generated files (Mac)
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Builds & export
+# =========================
+*.apk
+*.aab
+*.ipa
+*.app
+
+# =========================
+# Crash / logs
+# =========================
+sysinfo.txt
+
+# =========================
+# Addressables / cache
+# =========================
+ServerData/
