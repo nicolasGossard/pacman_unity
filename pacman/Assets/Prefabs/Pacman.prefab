@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6625513466888043311}
   - component: {fileID: 277115672864492059}
+  - component: {fileID: -6190114420896413775}
   m_Layer: 0
   m_Name: Pacman
   m_TagString: Untagged
@@ -91,3 +92,28 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &-6190114420896413775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856133515405164732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98bac0d972394e438e01bfc70fe4962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pacman
+  eatSprites:
+  - {fileID: 1118439383, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 946789568, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 655840636, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 693148111, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 2111316791, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 323387110, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: -2019083239, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 1225278206, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  - {fileID: 981143249, guid: 568743519f99f4cb4b0a26607ef4b920, type: 3}
+  sr: {fileID: 277115672864492059}
+  eatTime: 0.1
+  speed: 50
